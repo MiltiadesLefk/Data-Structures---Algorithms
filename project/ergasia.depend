@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1717949493 source:c:\users\black\documents\c++\ergasia\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<ctime>
+	<iomanip>
+	"hash.h"
+	"graph.h"
+	"avl.h"
+	"heap.h"
+
+1717944187 source:c:\users\black\documents\c++\ergasia\heap.cpp
+	"heap.h"
+	<iostream>
+	<cmath>
+
+1714591236 c:\users\black\documents\c++\ergasia\heap.h
+
+1717948769 source:c:\users\black\documents\c++\ergasia\graph.cpp
+	"graph.h"
+	<iostream>
+
+1717349596 c:\users\black\documents\c++\ergasia\graph.h
+
+1715871953 source:c:\users\black\documents\c++\ergasia\hash.cpp
+	"hash.h"
+	<iostream>
+
+1715871946 c:\users\black\documents\c++\ergasia\hash.h
+
+1715869778 source:c:\users\black\documents\c++\ergasia\avl.cpp
+	"avl.h"
+	<iostream>
+
+1715869780 c:\users\black\documents\c++\ergasia\avl.h
+
