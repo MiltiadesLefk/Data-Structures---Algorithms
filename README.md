@@ -1,32 +1,30 @@
-# Data Structures & Algorithms Implementation
+# 🗂️ Data Structures & Algorithms Implementation
 
 **Author:** Miltiadis Lefkopoulos  
 
-
 This repository contains implementations of several fundamental **data structures** and **graph algorithms** in C++, including:
 
-- **Binary Search Trees (BSTs)**
-- **Weighted Undirected Graphs**
-- **Hash Tables**
+- 🌳 **Binary Search Trees (BSTs)**
+- 📊 **Weighted Undirected Graphs**
+- 🧩 **Hash Tables**
 
 Each implementation comes with associated operations and auxiliary classes for efficient management.
 
 ---
 
-## Table of Contents
+## 📑 Table of Contents
 
 - [Binary Search Tree](#binary-search-tree-bst)
 - [Weighted Undirected Graph](#weighted-undirected-graph)
 - [Hash Table](#hash-table)
 
-
 ---
 
-## Binary Search Tree (BST)
+## 🌳 Binary Search Tree (BST)
 
 Implemented as a dynamic tree with nodes storing integer elements.  
 
-### Features
+### ⚡ Features
 
 - **Insert & Delete**
   - `insertRoot(Node*&, int)`: Insert a node at the root of a subtree.
@@ -41,11 +39,11 @@ Implemented as a dynamic tree with nodes storing integer elements.
 
 ---
 
-## Weighted Undirected Graph
+## 📊 Weighted Undirected Graph
 
 Graph is stored as **adjacency lists** with weighted edges.  
 
-### Features
+### ⚡ Features
 
 - **Graph Construction**
   - `Graph()` / `~Graph()`: Constructor and destructor.
@@ -59,18 +57,18 @@ Graph is stored as **adjacency lists** with weighted edges.
   - `computeSpanningTree(Graph&, int&)`: Minimum Spanning Tree via Prim's algorithm.
   - `findConnectedComponents(int&)`: Counts connected components using DFS.
 
-### Auxiliary Classes
+### 🛠️ Auxiliary Classes
 
 - `Stack`: Used for depth-first search.
 - `List`: Implements adjacency lists.
 
 ---
 
-## Hash Table
+## 🧩 Hash Table
 
 Implemented using **Separate Chaining** with singly linked lists to handle collisions.  
 
-### Features
+### ⚡ Features
 
 - Hash function: `h(x) = (2x + 1) mod 193`  
 - Class: `HashList` for storing integer elements in a list.
